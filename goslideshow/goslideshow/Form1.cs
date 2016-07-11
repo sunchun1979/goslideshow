@@ -24,6 +24,8 @@ namespace goslideshow
         bool continueToEnd = false;
         int moveCount = 0;
         int moveMax = 20;
+        int gameIndex;
+        int moveIndex;
 
         Brush boardBG;
         Brush blackStone;
@@ -46,9 +48,9 @@ namespace goslideshow
                 return;
             }
             Random r = new Random();
-            int gameIndex = r.Next(gameEntires.Count);
+            gameIndex = r.Next(gameEntires.Count);
             currentGame = new AGame(gameEntires[gameIndex].Open());
-            int moveIndex = r.Next(currentGame.NumMoves - moveMax);
+            moveIndex = r.Next(currentGame.NumMoves - moveMax);
             currentGame.PlayRecord(moveIndex);
         }
 
@@ -176,15 +178,19 @@ namespace goslideshow
                 changeGame();
                 continueToEnd = false;
             }
+            moveCount++;
             if (!continueToEnd)
             {
-                moveCount = (moveCount+1) % moveMax;
+                moveCount %= moveMax;
+            }
+            if (moveCount < currentGame.NumMoves - moveIndex)
+            {
+                currentGame.PlayRecord(1);
             }
             else
             {
-                moveCount = moveMax - 1;
+                moveCount = 0;
             }
-            currentGame.PlayRecord(1);
             paintBoard();
         }
 
@@ -203,7 +209,14 @@ namespace goslideshow
             }
             else if (e.KeyChar == (char)'C' || e.KeyChar == (char)'c')
             {
-                continueToEnd = !continueToEnd;
+                if (continueToEnd)
+                {
+                    moveCount = 0;
+                }
+                else
+                {
+                    continueToEnd = true;
+                }
             }
             else if (e.KeyChar == (char)'+')
             {
