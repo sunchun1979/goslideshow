@@ -1,0 +1,11 @@
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\bin\Release\goslideshow.exe.config
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\bin\Release\goslideshow.exe
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\bin\Release\goslideshow.pdb
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\bin\Release\Weiqi.dll
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\bin\Release\Weiqi.pdb
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\obj\Release\goslideshow.csprojResolveAssemblyReference.cache
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\obj\Release\goslideshow.Form1.resources
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\obj\Release\goslideshow.Properties.Resources.resources
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\obj\Release\goslideshow.csproj.GenerateResource.Cache
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\obj\Release\goslideshow.exe
+C:\Users\chunsun\Source\Repos\goslideshow\goslideshow\goslideshow\obj\Release\goslideshow.pdb
