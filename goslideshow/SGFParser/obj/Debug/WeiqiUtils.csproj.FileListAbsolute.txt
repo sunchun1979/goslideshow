@@ -1,0 +1,5 @@
+C:\Users\sunch\Documents\Visual Studio 2015\Projects\goslideshow\SGFParser\bin\Debug\Weiqi.dll
+C:\Users\sunch\Documents\Visual Studio 2015\Projects\goslideshow\SGFParser\bin\Debug\Weiqi.pdb
+C:\Users\sunch\Documents\Visual Studio 2015\Projects\goslideshow\SGFParser\obj\Debug\WeiqiUtils.csprojResolveAssemblyReference.cache
+C:\Users\sunch\Documents\Visual Studio 2015\Projects\goslideshow\SGFParser\obj\Debug\Weiqi.dll
+C:\Users\sunch\Documents\Visual Studio 2015\Projects\goslideshow\SGFParser\obj\Debug\Weiqi.pdb
