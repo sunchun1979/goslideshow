@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "goslideshow", "goslideshow\goslideshow.csproj", "{8AB6C608-0B28-4AEE-A2CA-DA42F227DC89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE4B3029-15A2-404A-8113-A936A7E1B233} = {BE4B3029-15A2-404A-8113-A936A7E1B233}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiqiUtils", "SGFParser\WeiqiUtils.csproj", "{BE4B3029-15A2-404A-8113-A936A7E1B233}"
 EndProject
